@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 .Navbar {
   display: flex;
   align-items: center;
@@ -39,6 +42,7 @@ nav ul li a {
   align-items: center;
 
   justify-content: space-around;
+  margin-top: 60px;
 }
 .col-2 {
   flex-basis: 50%;
@@ -47,4 +51,22 @@ nav ul li a {
 .col-2 img {
   max-width: 100%;
   padding: 50px 0;
+}
+.col-2 h1 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding: 8px 30px;
+  background-color: rgb(247, 75, 12);
+  color: white;
+  margin: ;
+  text-decoration: none;
+}
+.header {
+  background-color: peachpuff;
 }
